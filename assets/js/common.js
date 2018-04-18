@@ -1,1 +1,4 @@
-// main.js
+// common.js
+$(function() {
+
+});
