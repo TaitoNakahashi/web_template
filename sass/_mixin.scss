@@ -32,13 +32,6 @@
 		#{$prefix}#{$name}: $value;
 	}
 }
-// 値にプレフィックスを付与
-@mixin value-Prefix($name, $value) {
-	@each $prefix in $set-prefix {
-		#{$name}: #{$prefix}$value;
-	}
-}
-
 
 // ボックスの設定
 @mixin box($type: border-box) {
