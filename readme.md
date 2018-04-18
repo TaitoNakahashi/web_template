@@ -4,19 +4,19 @@
 ---
 
 ## 対象ブラウザ
-*  ** Microsoft Windows10 **
+*  **Microsoft Windows10**
 	* Google Chrome
 	* Mozilla Firefox
 	* Microsoft Edge
 	* (Internet Explorer 11) ※必要な場合のみ
-* ** macOS **
+* **macOS**
 	* Google Chrome
 	* Mozilla Firefox
 	* Safari
-* ** Android **
+* **Android**
 	* Android Google Chrome
 	* Android Browser
-* ** iOS **
+* **iOS**
 	* Safari
 	* BEMを使用します。
 
@@ -66,4 +66,4 @@
 ## ディレクトリ基本構成
  PDFファイルを参照してください。
 <br>
-[ディレクトリ基本構成](ディレクトリ構成.pdf)
+[ディレクトリ基本構成](/Users/icoma/www/web_template/ディレクトリ構成.pdf)
