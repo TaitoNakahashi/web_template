@@ -1,51 +1,16 @@
 @charset "utf-8";
-// ===================================================================
-// setting.css 設定
-// ===================================================================
 
-// ベースフォント
-$base-font: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
-// $button-font: ;
-// $sub-font: 'PT Sans', sans-serif;
+//font
+$base-font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+$base-font-size: 16px;
 
-//カラー
-$primary-color: #fff; //メインカラー
-$secondary-color: #fff; //サブカラー
-$accent-color: #ccc; //アクセントカラー
-$font-color: #000;
+//size
+$inner-width: 1080px;
 
-// エラーカラー
-$error-color: #d76666;
+//color
+$base-text-color: #333;
+$base-anchor-color: #333;
+$base-anchor-hover-color: #333;
 
-// 付与するベンダープレフィックス
-$set-prefix: -webkit-, -moz-, -ms-, -o-, '';
-
-// ページ全体の横幅
-// $width: 1040px;
-
-//要素の基本下マージン
-$base-margin-bottom: 15px;
-
-//基本durationの時間
-$base-duration: 500ms;
-
-/*--------------------------------------------------------
-	メディアクエリの設定
----------------------------------------------------------*/
-// min-width
-$breakpoint-up: (
-	'sm': 'screen and (min-width: 768px)',
-	'md': 'screen and (min-width: 1024px)',
-	'lg': 'screen and (min-width: 1112px)',
-	'xl': 'screen and (min-width: 1366px)',
-	'xxl': 'screen and (min-width: 1920px)',
-) !default;
-
-// max-width
-$breakpoint-down: (
-	'sm': 'screen and (max-width: 767px)',
-	'md': 'screen and (max-width: 1023px)',
-	'lg': 'screen and (max-width: 1111px)',
-	'xl': 'screen and (max-width: 1365px)',
-	'xxl': 'screen and (min-width: 1919px)',
-) !default;
+//breakpoint
+$breakpoint: 639px;
