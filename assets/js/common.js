@@ -1,4 +1,4 @@
 // common.js
-$(function() {
+$(function () {
 
 });
