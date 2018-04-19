@@ -4,15 +4,15 @@
 // ===================================================================
 
 // ベースフォント
-$base-font: 'ヒラギノ丸ゴ ProN W4','HIRAGINO Maru Gothic ProN';
-$base-font-ie: 'ＭＳ Ｐゴシック', 'Lato', Sans-Serif; //IE用
-$button-font: 'Helvetica Neue', arial, sans-serif;
-$sub-font: 'PT Sans', sans-serif;
+$base-font: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+// $button-font: ;
+// $sub-font: 'PT Sans', sans-serif;
 
 //カラー
-$primary-color: #000; //メインカラー
-$secondary-color: #000; //サブカラー
-$accent-color: #000; //アクセントカラー
+$primary-color: #fff; //メインカラー
+$secondary-color: #fff; //サブカラー
+$accent-color: #ccc; //アクセントカラー
+$font-color: #000;
 
 // エラーカラー
 $error-color: #d76666;
